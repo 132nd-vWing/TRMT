@@ -4120,7 +4120,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 65,
+                                            ["alt"] = 69,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -4136,8 +4136,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 242240.03485288,
-                                            ["y"] = -452279.02976612,
+                                            ["x"] = 242779.57278347,
+                                            ["y"] = -452419.77638569,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -4161,13 +4161,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "S-200_Launcher",
                                         ["unitId"] = 1,
-                                        ["x"] = 242240.03485288,
-                                        ["y"] = -452279.02976612,
+                                        ["x"] = 242779.57278347,
+                                        ["y"] = -452419.77638569,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 242240.03485288,
-                                ["y"] = -452279.02976612,
+                                ["x"] = 242779.57278347,
+                                ["y"] = -452419.77638569,
                             }, -- end of [1]
                             [2] =
                             {
@@ -4892,6 +4892,135 @@ mission =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 46,
+                                ["heading"] = 0,
+                                ["name"] = "Static Ammunition depot-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 176292.9076255,
+                                            ["y"] = -303748.17391487,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 0,
+                                        ["name"] = "Static Ammunition depot-1-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "SkladC",
+                                        ["type"] = ".Ammunition depot",
+                                        ["unitId"] = 75,
+                                        ["x"] = 176292.9076255,
+                                        ["y"] = -303748.17391487,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 176292.9076255,
+                                ["y"] = -303748.17391487,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 47,
+                                ["heading"] = 0,
+                                ["name"] = "Static Ammunition depot-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 176213.72237548,
+                                            ["y"] = -303741.46330046,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 0,
+                                        ["name"] = "Static Ammunition depot-2-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "SkladC",
+                                        ["type"] = ".Ammunition depot",
+                                        ["unitId"] = 76,
+                                        ["x"] = 176213.72237548,
+                                        ["y"] = -303741.46330046,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 176213.72237548,
+                                ["y"] = -303741.46330046,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 48,
+                                ["heading"] = 0,
+                                ["name"] = "Static Command Center-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 191450.72933877,
+                                            ["y"] = -308987.7711802,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Static Command Center-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "ComCenter",
+                                        ["type"] = ".Command Center",
+                                        ["unitId"] = 77,
+                                        ["x"] = 191450.72933877,
+                                        ["y"] = -308987.7711802,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 191450.72933877,
+                                ["y"] = -308987.7711802,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] =
                     {
                         ["group"] =
@@ -5890,6 +6019,291 @@ mission =
                                 ["x"] = 157566.14911953,
                                 ["y"] = -245117.11157584,
                             }, -- end of [11]
+                            [12] =
+                            {
+                                ["groupId"] = 49,
+                                ["hidden"] = false,
+                                ["name"] = "Ground-9",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1190,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 191242.39657895,
+                                            ["y"] = -308900.10305483,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "Ground-9-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "p-19 s-125 sr",
+                                        ["unitId"] = 78,
+                                        ["x"] = 191242.39657895,
+                                        ["y"] = -308900.10305483,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["heading"] = 5.4279739737024,
+                                        ["name"] = "Ground-9-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "snr s-125 tr",
+                                        ["unitId"] = 79,
+                                        ["x"] = 191242.3217875,
+                                        ["y"] = -308922.62998979,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["heading"] = 0.97738438111682,
+                                        ["name"] = "Ground-9-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 80,
+                                        ["x"] = 191301.34638261,
+                                        ["y"] = -308815.88904961,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "Ground-9-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 81,
+                                        ["x"] = 191125.69298304,
+                                        ["y"] = -308979.03593372,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["heading"] = 2.3212879051525,
+                                        ["name"] = "Ground-9-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 82,
+                                        ["x"] = 191128.80071096,
+                                        ["y"] = -308811.07152093,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["heading"] = 5.3407075111026,
+                                        ["name"] = "Ground-9-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 83,
+                                        ["x"] = 191302.1397369,
+                                        ["y"] = -308987.72599355,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "Ground-9-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 84,
+                                        ["x"] = 191147.59805146,
+                                        ["y"] = -308832.80010223,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["heading"] = 0.069813170079773,
+                                        ["name"] = "Ground-9-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 85,
+                                        ["x"] = 191287.95754192,
+                                        ["y"] = -308976.10714199,
+                                    }, -- end of [8]
+                                    [9] =
+                                    {
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "Ground-9-9",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 86,
+                                        ["x"] = 191198.35379599,
+                                        ["y"] = -308913.11336289,
+                                    }, -- end of [9]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 191242.39657895,
+                                ["y"] = -308900.10305483,
+                            }, -- end of [12]
+                            [13] =
+                            {
+                                ["groupId"] = 51,
+                                ["hidden"] = false,
+                                ["name"] = "Ground-10",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1566,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 176086.71013977,
+                                            ["y"] = -303575.29206806,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "Ground-10-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "p-19 s-125 sr",
+                                        ["unitId"] = 95,
+                                        ["x"] = 176086.71013977,
+                                        ["y"] = -303575.29206806,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["heading"] = 5.4279739737024,
+                                        ["name"] = "Ground-10-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "snr s-125 tr",
+                                        ["unitId"] = 96,
+                                        ["x"] = 176080.09260795,
+                                        ["y"] = -303601.53044287,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["heading"] = 0.97738438111682,
+                                        ["name"] = "Ground-10-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 97,
+                                        ["x"] = 176145.65994342,
+                                        ["y"] = -303491.07806284,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "Ground-10-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 98,
+                                        ["x"] = 175970.00654386,
+                                        ["y"] = -303654.22494695,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["heading"] = 2.3212879051525,
+                                        ["name"] = "Ground-10-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 99,
+                                        ["x"] = 175973.11427178,
+                                        ["y"] = -303486.26053416,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["heading"] = 5.3407075111026,
+                                        ["name"] = "Ground-10-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 100,
+                                        ["x"] = 176146.45329772,
+                                        ["y"] = -303662.91500678,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "Ground-10-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 101,
+                                        ["x"] = 175991.91161228,
+                                        ["y"] = -303507.98911546,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["heading"] = 0.069813170079773,
+                                        ["name"] = "Ground-10-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 102,
+                                        ["x"] = 176132.27110274,
+                                        ["y"] = -303651.29615522,
+                                    }, -- end of [8]
+                                    [9] =
+                                    {
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "Ground-10-9",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 103,
+                                        ["x"] = 176042.66735681,
+                                        ["y"] = -303588.30237612,
+                                    }, -- end of [9]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 176086.71013977,
+                                ["y"] = -303575.29206806,
+                            }, -- end of [13]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
@@ -6001,7 +6415,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 4478,
+    ["currentKey"] = 6094,
     ["date"] =
     {
         ["Day"] = 21,
@@ -7353,9 +7767,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 153462.61364447,
-        ["centerY"] = -49963.537591668,
-        ["zoom"] = 761111.89522163,
+        ["centerX"] = 165484.37718269,
+        ["centerY"] = -218712.12151062,
+        ["zoom"] = 1000602.7296945,
     }, -- end of ["map"]
     ["maxDictId"] = 5,
     ["pictureFileNameB"] =
