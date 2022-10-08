@@ -4104,7 +4104,7 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 202,
                                 ["heading"] = 0,
-                                ["name"] = "Windsock London",
+                                ["name"] = "ATIS London 230.600, TRAFFIC 230.500, VOICE WIN",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -4128,7 +4128,7 @@ mission =
                                     {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 0,
-                                        ["name"] = "Windsock London-1",
+                                        ["name"] = "ATIS London 230.600, TRAFFIC 230.500, VOICE WIN",
                                         ["rate"] = 3,
                                         ["shape_name"] = "H-Windsock_RW",
                                         ["type"] = "Windsock",
@@ -4189,7 +4189,7 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 209,
                                 ["heading"] = 0,
-                                ["name"] = "Windsock London-1",
+                                ["name"] = "ATIS Berlin 231.600, TRAFFIC 231.75, VOICE WIN",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -4213,7 +4213,7 @@ mission =
                                     {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 0,
-                                        ["name"] = "Windsock London-1-1",
+                                        ["name"] = "ATIS Berlin 231.600, TRAFFIC 231.75, VOICE WIN",
                                         ["rate"] = 3,
                                         ["shape_name"] = "H-Windsock_RW",
                                         ["type"] = "Windsock",
@@ -4225,6 +4225,86 @@ mission =
                                 ["x"] = 208714.87287727,
                                 ["y"] = 69251.539569397,
                             }, -- end of [5]
+                            [6] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 216,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Incirlik 129.600, TRAFFIC 129.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 220714.25646639,
+                                            ["y"] = -36577.787953398,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Incirlik 129.600, TRAFFIC 129.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 441,
+                                        ["x"] = 220714.25646639,
+                                        ["y"] = -36577.787953398,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 220714.25646639,
+                                ["y"] = -36577.787953398,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 217,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Gaziantep 120.600, TRAFFIC 120.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210138.33509744,
+                                            ["y"] = 146580.19123974,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Gaziantep 120.600, TRAFFIC 120.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 442,
+                                        ["x"] = 210138.33509744,
+                                        ["y"] = 146580.19123974,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210138.33509744,
+                                ["y"] = 146580.19123974,
+                            }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -12564,6 +12644,52 @@ mission =
                 {
                     ["id"] = 7,
                     ["name"] = "USAF Aggressors",
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 221,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Adana 121.600, TRAFFIC 121.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 219427.29867502,
+                                            ["y"] = -47492.546188893,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Adana 121.600, TRAFFIC 121.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 446,
+                                        ["x"] = 219427.29867502,
+                                        ["y"] = -47492.546188893,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 219427.29867502,
+                                ["y"] = -47492.546188893,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] =
                     {
                         ["group"] =
@@ -14270,6 +14396,132 @@ mission =
                             }, -- end of [9]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 218,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Sanliurfa 118.600, TRAFFIC 118.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 264306.25674693,
+                                            ["y"] = 274259.90129995,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Sanliurfa 118.600, TRAFFIC 118.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 443,
+                                        ["x"] = 264306.25674693,
+                                        ["y"] = 274259.90129995,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 264306.25674693,
+                                ["y"] = 274259.90129995,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 219,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Gazipasa 119.600, TRAFFIC 119.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 157968.5627441,
+                                            ["y"] = -318814.52309789,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Gazipasa 119.600, TRAFFIC 119.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 444,
+                                        ["x"] = 157968.5627441,
+                                        ["y"] = -318814.52309789,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 157968.5627441,
+                                ["y"] = -318814.52309789,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 220,
+                                ["heading"] = 5.7072266540215,
+                                ["name"] = "ATIS Akrotiri 128.600, TRAFFIC 128.200, VOICE WIN",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -36226.853077478,
+                                            ["y"] = -268725.91825856,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.7072266540215,
+                                        ["name"] = "ATIS Akrotiri 128.600, TRAFFIC 128.200, VOICE WIN",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 445,
+                                        ["x"] = -36226.853077478,
+                                        ["y"] = -268725.91825856,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -36226.853077478,
+                                ["y"] = -268725.91825856,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] =
                     {
                         ["group"] =
@@ -59590,7 +59842,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 97104,
+    ["currentKey"] = 101355,
     ["date"] =
     {
         ["Day"] = 21,
@@ -67567,9 +67819,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 172755.2384652,
-        ["centerY"] = 179323.45214436,
-        ["zoom"] = 950260.46562177,
+        ["centerX"] = 25008.700915187,
+        ["centerY"] = 32864.758369336,
+        ["zoom"] = 1973233.5248207,
     }, -- end of ["map"]
     ["maxDictId"] = 6,
     ["pictureFileNameB"] =
