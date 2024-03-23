@@ -18,7 +18,7 @@ redIADS:addCommandCenter(commandCenter)
 local sa15 = redIADS:getSAMSiteByGroupName('ORANGE_IADS_PD_TS2_SA15_1')
 redIADS:getSAMSiteByGroupName('ORANGE_IADS_SA2_TS_2'):addPointDefence(sa15)
 
--- Point Defense
+-- Point Defense 1
 local sa15 = redIADS:getSAMSiteByGroupName('ORANGE_IADS_PD_TS2_SA15_2')
 redIADS:getSAMSiteByGroupName('ORANGE_IADS_SA2_TS_2'):addPointDefence(sa15)
 
